@@ -1,4 +1,4 @@
-function isPrime(num) {
+const isPrime= (num) => {
     var sqrtnum=Math.floor(Math.sqrt(num));
       var prime = num != 1;
       for(var i=2; i<sqrtnum+1; i++) { // sqrtnum+1
@@ -9,7 +9,7 @@ function isPrime(num) {
       }
       return prime;
   }
-  function isarmstrong(n)
+  const isarmstrong = (n) =>
   {
     let arm=0,a,b,c,d;
     temp=n;
